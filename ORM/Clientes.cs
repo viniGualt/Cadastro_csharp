@@ -12,7 +12,7 @@ namespace ORM
         public int cpf { get; set; }
         public string email { get; set; }
 
-        private Clientes() {}
+        private Clientes() { }
         public Clientes(string nome, int cpf)
         {
             nome = nome;
