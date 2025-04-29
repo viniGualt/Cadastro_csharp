@@ -6803,11 +6803,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp3\\ORM\\ORM.csproj",
       "projectName": "ORM",
       "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp3\\ORM\\ORM.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp3\\ORM\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp2\\ORM\\ORM.csproj",
+      "projectName": "ORM",
+      "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp2\\ORM\\ORM.csproj",
+      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp2\\ORM\\obj\\",
+>>>>>>> 1679c0957daff8ccafba57db6b0e60c586e8bda3
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",

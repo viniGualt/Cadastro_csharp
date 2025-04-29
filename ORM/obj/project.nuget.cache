@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "x+rigIWtLXw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp3\\ORM\\ORM.csproj",
+=======
+  "dgSpecHash": "RtPo3vqGrVs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aluno\\Source\\Repos\\Cadastro_csharp2\\ORM\\ORM.csproj",
+>>>>>>> 1679c0957daff8ccafba57db6b0e60c586e8bda3
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
