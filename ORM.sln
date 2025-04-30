@@ -5,10 +5,6 @@ VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM", "ORM\ORM.csproj", "{EC0724C8-A3D2-4DAC-87A0-65E10BD79EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaORM", "..\BancoDeDados\AulaORM.csproj", "{0B0E5DB8-F8E0-6FC5-2267-265D72F64B90}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-01 P1 2002601 1997165", "..\2025-01 P1 2002601 1997165\2025-01 P1 2002601 1997165.csproj", "{2704B6DE-0C2D-7181-CCEE-0774F4DDEBEF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{EC0724C8-A3D2-4DAC-87A0-65E10BD79EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC0724C8-A3D2-4DAC-87A0-65E10BD79EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC0724C8-A3D2-4DAC-87A0-65E10BD79EDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B0E5DB8-F8E0-6FC5-2267-265D72F64B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B0E5DB8-F8E0-6FC5-2267-265D72F64B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B0E5DB8-F8E0-6FC5-2267-265D72F64B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B0E5DB8-F8E0-6FC5-2267-265D72F64B90}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2704B6DE-0C2D-7181-CCEE-0774F4DDEBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2704B6DE-0C2D-7181-CCEE-0774F4DDEBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2704B6DE-0C2D-7181-CCEE-0774F4DDEBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2704B6DE-0C2D-7181-CCEE-0774F4DDEBEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
