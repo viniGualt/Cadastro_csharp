@@ -407,3 +407,10 @@ FodyWeavers.xsd
 /ORM/obj/Debug/net8.0/ORM.AssemblyInfoInputs.cache
 /ORM/obj/Debug/net8.0/ORM.AssemblyInfo.cs
 /ORM.sln
+<<<<<<< HEAD
+/.vs/ORM/FileContentIndex
+=======
+/.vs
+/.vs
+>>>>>>> bf05a86979e288564b94b4bef317581cf2408bd2
+/ORM/obj/Debug/net8.0/ORM.csproj.AssemblyReference.cache
