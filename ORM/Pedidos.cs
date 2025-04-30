@@ -8,22 +8,29 @@ namespace ORM
 {
     public class Pedidos
     {
-        public int Id { get; set; }
-        Produtos produto { get; set; }
-        Clientes cliente { get; set; }
-        DateTime data { get; set; }
-        double valorTotal { get; set; }
-        public decimal ValorTotal => CalcularValorTotal();
-        private decimal CalcularValorTotal()
+        public int id { get; set; }
+        public List<Produtos> produtos { get; set; }
+        public Clientes cliente { get; set; }
+        public DateTime data { get; set; }
+
+        private Pedidos() { }
+        public Pedidos(List<Produtos> produtos, Clientes cliente, DateTime data)
+        {
+            this.produtos = produtos;
+            this.cliente = cliente;
+            this.data = data;
+        }
+
+        public decimal ValorTotal = 0;
+
+        public decimal CalcularValorTotal()
         {
             decimal total = 0;
             foreach (var produto in Produtos)
             {
-                total += produto.Preco;
+                total += produto.preco;
             }
             return total;
         }
-
-
     }
 }

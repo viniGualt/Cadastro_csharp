@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace ORM
 {
-    class Produtos
+    public class Produtos
     {
-        public string nome {get; set;}
+        public string nome { get; set; }
         public double preco { get; set; }
+
+        private Produtos() { }
+        public Produtos(string nome, double preco)
+        {
+            this.nome = nome;
+            this.preco = preco;
+        }
+
     }
 }

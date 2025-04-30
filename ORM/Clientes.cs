@@ -6,22 +6,23 @@ using System.Threading.Tasks;
 
 namespace ORM
 {
-    class Clientes
+    public class Clientes
     {
         public string nome { get; set; }
         public int cpf { get; set; }
         public string email { get; set; }
 
         private Clientes() { }
-        public Clientes(string nome, int cpf)
+        public Clientes(string nome, int cpf, string email)
         {
-            nome = nome;
-            cpf = cpf;
+            this.nome = nome;
+            this.cpf = cpf;
+            this.email = email;
         }
 
         public override string ToString()
         {
-            return $"{nome} {cpf}";
+            return $"Nome: {nome} - CPF: {cpf}";
         }
     }
 }
